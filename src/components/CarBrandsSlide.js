@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const CarBrandsSlide = ({ dataArray }) => {
   return (
     <Fragment>
-      {dataArray.map((res) => (
+      {dataArray && dataArray.map((res) => (
         <li key={res.id}>
           <img
             loading="lazy"
